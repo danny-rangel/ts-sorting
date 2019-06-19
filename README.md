@@ -1,3 +1,3 @@
 # ts sort
 
-Sorting algorithm in typescript
+Sorting stuff with typescript
