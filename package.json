@@ -1,0 +1,25 @@
+{
+    "name": "sort",
+    "version": "1.0.0",
+    "description": "Sorting stuff with typescript",
+    "main": "index.js",
+    "scripts": {
+        "start:build": "tsc -w",
+        "start:run": "nodemon build/index.js",
+        "start": "concurrently npm:start:*"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/danny-rangel/ts-sorting.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/danny-rangel/ts-sorting/issues"
+    },
+    "homepage": "https://github.com/danny-rangel/ts-sorting#readme",
+    "dependencies": {
+        "concurrently": "^4.1.0"
+    }
+}
